@@ -1,7 +1,7 @@
 ﻿# Writing a CSV parser in F# - Record building
 
-This part covers adding functionality to create a generic record from a collection of string values
-and adding the ability to specify a format for certain types.
+This part covers adding functionality to create a generic record from a collection of string values,
+as well as adding the ability to specify a format for certain types.
 
 ## Format attribute
 
@@ -341,7 +341,7 @@ module RecordBuilder =
             o :?> 'T
 ```
 
-*This could handle errors better, however it can be easily refactored to do so.
+*This could handle errors better, however it can be easily refactored to do so.*
 
 ## Summary
 
