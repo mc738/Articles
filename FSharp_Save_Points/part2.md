@@ -1,6 +1,6 @@
 ﻿# Save points in F# - A basic implementation
 
-This part will cover a basic save point implement. 
+This part will cover a basic save point implementation. 
 This will involve serializing result to JSON, saving them to a file and loading them on repeated calls.
 
 # Basic process
@@ -19,8 +19,6 @@ module Common =
 
     /// Types of save points
     type SavePointType = File of BasePath: string
-
-
 ```
 
 *In the future this can be expanded for difference save point types/strategies*
@@ -96,7 +94,6 @@ let runInSavePoint<'T> (savePointType: SavePointType) (savePoint: string) (key: 
 The full `Dedupe` module should look like:
 
 ```fsharp
-
 module Dedupe =
 
     open System.IO
@@ -111,7 +108,6 @@ module Dedupe =
             /// Saves the file as [savePoint]-[key].json in the base path.
             let saveToFile (path: string) (savePoint: string) (key: string) (value: string) =
                 File.WriteAllText(Path.Combine(path, $"{savePoint}-{key}.json"), value)
-
 
             /// A helper function to load a string from a file.
             /// Attempts to load the file called [savePoint]-[key].json from the base path.

@@ -1,6 +1,6 @@
 ﻿# Save points in F# - Introduction
 
-This series is going to explore the concept of save points in F#, their benefits and why might want to use them.
+This series is going to explore the concept of save points in F#, their benefits and when you might want to use them.
 
 ## What is a save point?
 
@@ -13,11 +13,11 @@ For example, imagine a situation where you need to call a computational expensiv
 ```fsharp
 let myFunction _ =
 
-    let expensiveComputationResult = expensiveComputation _
+    let expensiveComputationResult = expensiveComputation ()
 
     // If this call fails, or myFunction needs to be called again in the same context.
     // You might want to skip recalling expensiveComputation and use the result already returned.    
-    anotherFunction let expensiveComputationResult
+    anotherFunction expensiveComputationResult
 ```
 
 The idea is inspired by save points in `sql`, where you can roll back a transaction to a certain point if something fails later.
