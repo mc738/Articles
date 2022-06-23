@@ -1,7 +1,7 @@
 ﻿# Writing a shell in F# - Introduction
 
 This series will look at writing a shell in F#. 
-It is not mean to create a tool to replace bash or powershell, 
+It is not meant to create a tool to replace bash or powershell, 
 but is meant as a project to help me learn more about how shells work under the hood.
 
 ## Why?
