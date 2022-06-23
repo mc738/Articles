@@ -19,6 +19,7 @@ module Watcher =
 
     open System.IO
 
+    /// A file watcher configuration.
     type WatcherConfiguration =
         { Filter: string option
           IncludeSubDirectories: bool
@@ -128,7 +129,7 @@ module Example =
            OnError = onError
            OnShutDown = onShutDown }: Watcher.WatcherConfiguration)
 
-    // Run the
+    // Run the watcher.
     let start path =
 
         // Create a CancellationTokenSource for use in the watcher
