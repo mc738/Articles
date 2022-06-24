@@ -794,5 +794,3 @@ and the 2 buffer method works well for scrolling, backspaces etc.
 
 There is quite a lot of code here but it covers most the basic functionality I'd expect from a shell
 and hopefully isn't too confusing. It also seems to run ok.
-
-
