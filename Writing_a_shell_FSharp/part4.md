@@ -321,7 +321,7 @@ let updateLine (prompt: string) (state: State) =
 
 An example output:
 
-![Example output](https://blog.psionic.cloud/img/writing_a_shell_in_fsharp-img.png "Syntax") { width:100% }
+![Example output](https://blog.psionic.cloud/img/writing_a_shell_in_fsharp-img.png "Syntax"){ width:100% }
 
 ## Summary
 
