@@ -1,4 +1,4 @@
-# Writing a dev server in rust
+# Writing a dev server in rust - Introduction
 
 The series will look at writing a dev server in rust. The server will support hot reloading of pages when changes are made.
 
@@ -41,7 +41,7 @@ For now, scripts will be injected via regex to keep things simple.
 
 ## Getting started
 
-The rust book has a great tutorial on making a [http server]("https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html").
+The rust book has a great tutorial on making a [http server](https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html).
 That will serve as the basis of this project. I am going to try to write as much of this myself. I think it is a better learning experience that way.
 
 However a few dependencies I will use are:
@@ -53,4 +53,3 @@ However a few dependencies I will use are:
 * `regex` - for injecting the handler script.
 
 Other than that I will be writing it from scratch. I am still learning rust so a lot of things could be done better but hopefully it still provides some useful insight.
-
