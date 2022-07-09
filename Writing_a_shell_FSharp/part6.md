@@ -14,7 +14,10 @@ With this in place the shell is actually usable (though with limited functionali
 
 ## Design
 
-TODO
+The interpreter takes a list of tokens and transforms them into intermediary blocks.
+These consist of a command, it's arguments and an operator. 
+
+These blocks are then converted to steps to be run in a pipeline. 
 
 ## Implementation
 
@@ -221,7 +224,32 @@ module Interpreter =
     /// Run the interpreter and create a list of steps to be executed.
     let run (input: string) = Parsing.run input |> split |> createSteps
 ```
+Lastly I updated `actionHandler` in the main program to use the interpreter:
+
+```fsharp
+let actionHandler (str: string) =
+    match Interpreter.run str with
+    | Ok steps -> Pipes.run steps
+    | Error e ->
+         Console.Write(Environment.NewLine)
+         Console.ForegroundColor <- ConsoleColor.Red
+         printfn $"Error: {e}"
+         Console.ResetColor()
+         1
+```
+
+Example of the shell in action:
+
+![Example output](https://blog.psionic.cloud/img/writing_a_shell_in_fsharp_img2.png "Shell output"){ width:100% }
 
 ## Summary
 
-TODO
+With the interpreter added, the shell is usable. 
+Thought it only supports some basic commands at this point and F# script and program support needs to be added it can perform some everyday tasks.
+
+Specific shell commands need to be added like `cd` and `exit` still need to be added and there are a couple of bugs/changes required:
+
+* After a file redirect that does not preserve output (`>` without `-p`), a blank line will be printed.
+* Errors/output could wrap around and currently are not handled by the offset which only counts newlines.
+
+But these can be fixed later, for now the most of the basic parts are in place.
