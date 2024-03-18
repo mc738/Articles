@@ -1,0 +1,18 @@
+{
+    "storePath": "C:\\ProjectData\\Articles\\daria_store.db",
+    "articlesRoot": "C:\\ProjectData\\Articles",
+    "resourcesRoot": "C:\\ProjectData\\Articles\\.resources",
+    "directoryIgnorePatterns": [
+        "^\\.",
+        "^_"
+    ],
+    "fileIgnorePatterns": [
+        "\\.(?!md$)"
+    ],
+    "dateTimeFormats": [ 
+        "u",
+        "yyyy-MM-dd",
+        "dd/MM/yyyy"
+    ],
+    "indexFileName": "index.md"
+}
