@@ -1,4 +1,11 @@
-﻿# Build a blog- Introduction
+﻿<meta name="daria:article_id" content="build_a_blog_part_1">
+<meta name="daria:title" content="Part 1">
+<meta name="daria:title_slug" content="part 1">
+<meta name="daria:order" content="0">
+<meta name="daria:created_on" content="2022-06-21">
+<meta name="daria:tags" content="fsharp,markdown,general">
+
+# Build a blog - Introduction
 
 A series exploring my experiences building a blog "from scratch". 
 Although a plethora of blog tools and SSGs exist, I am the the type of person who sometimes likes to reinvent the wheel.
