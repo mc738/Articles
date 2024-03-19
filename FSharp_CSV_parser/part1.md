@@ -1,3 +1,10 @@
+<meta name="daria:article_id" content="writing_a_csv_parser_in_fsharp_part_1">
+<meta name="daria:title" content="Part 1">
+<meta name="daria:title_slug" content="part_1">
+<meta name="daria:order" content="1">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="fsharp,csv">
+
 # Writing a CSV parser in F# - Introduction
 
 How to create a (good enough) CSV parser in F#
