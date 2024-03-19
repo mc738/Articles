@@ -1,6 +1,6 @@
 ﻿<meta name="daria:article_id" content="build_a_blog_part_1">
 <meta name="daria:title" content="Part 1">
-<meta name="daria:title_slug" content="part 1">
+<meta name="daria:title_slug" content="part_1">
 <meta name="daria:order" content="0">
 <meta name="daria:created_on" content="2022-06-21">
 <meta name="daria:tags" content="fsharp,markdown,general">
