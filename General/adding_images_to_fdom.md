@@ -1,4 +1,11 @@
-﻿# Adding images to FDOM
+﻿<meta name="daria:article_id" content="adding_images_to_fdom">
+<meta name="daria:title" content="Adding images to FDOM">
+<meta name="daria:title_slug" content="adding_images_to_fdom">
+<meta name="daria:order" content="0">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="general">
+
+# Adding images to FDOM
 
 Experiences and testing of adding images to FDOM's markdown parse and Html renderer.
 
