@@ -1,3 +1,10 @@
+<meta name="daria:article_id" content="type_coercion_in_fsharp">
+<meta name="daria:title" content="Type coercion in F#">
+<meta name="daria:title_slug" content="type_coercion_in_fsharp">
+<meta name="daria:order" content="2">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="general">
+
 # Type coercion in F#
 
 Mapping base .net types to domain specific values.
