@@ -1,4 +1,11 @@
-﻿# Create a basic file watcher in F#
+﻿<meta name="daria:article_id" content="creating_a_basic_file_watcher_in_fsharp">
+<meta name="daria:title" content="Create a basic file watcher in F#">
+<meta name="daria:title_slug" content="creating_a_basic_file_watcher_in_fsharp">
+<meta name="daria:order" content="1">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="general">
+
+# Create a basic file watcher in F#
 
 This article goes over creating a basic configurable file watcher in F#. 
 File watchers have many applications and can easily be implemented in .NET.
