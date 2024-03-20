@@ -1,4 +1,11 @@
-﻿# Writing a CSV parser in F# - Record building
+﻿<meta name="daria:article_id" content="writing_a_csv_parser_in_fsharp_part_3">
+<meta name="daria:title" content="Part 3">
+<meta name="daria:title_slug" content="part_3">
+<meta name="daria:order" content="2">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="fsharp,csv">
+
+# Writing a CSV parser in F# - Record building
 
 This part covers adding functionality to create a generic record from a collection of string values,
 as well as adding the ability to specify a format for certain types.
