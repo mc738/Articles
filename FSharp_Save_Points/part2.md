@@ -1,4 +1,11 @@
-﻿# Save points in F# - A basic implementation
+﻿<meta name="daria:article_id" content="save_points_in_fsharp_part_2">
+<meta name="daria:title" content="Part 2">
+<meta name="daria:title_slug" content="part_2">
+<meta name="daria:order" content="1">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="fsharp">
+
+# Save points in F# - A basic implementation
 
 This part will cover a basic save point implementation. 
 This will involve serializing result to JSON, saving them to a file and loading them on repeated calls.
