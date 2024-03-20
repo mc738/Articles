@@ -1,4 +1,11 @@
-﻿# Save points in F# - Introduction
+﻿<meta name="daria:article_id" content="save_points_in_fsharp_part_1">
+<meta name="daria:title" content="Part 1">
+<meta name="daria:title_slug" content="part_1">
+<meta name="daria:order" content="0">
+<meta name="daria:created_on" content="2022-06-19">
+<meta name="daria:tags" content="fsharp">
+
+# Save points in F# - Introduction
 
 This series is going to explore the concept of save points in F#, their benefits and when you might want to use them.
 
