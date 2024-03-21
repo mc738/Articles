@@ -1,7 +1,7 @@
 ﻿<meta name="daria:article_id" content="generating_svgs_fsharp_part_1">
 <meta name="daria:title" content="Part 1">
 <meta name="daria:title_slug" content="part_1">
-<meta name="daria:order" content="9">
+<meta name="daria:order" content="1">
 <meta name="daria:created_on" content="2024-03-19">
 <meta name="daria:tags" content="fsharp,svg">
 
