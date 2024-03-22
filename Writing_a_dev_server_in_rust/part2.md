@@ -1,3 +1,10 @@
+<meta name="daria:article_id" content="writing_a_dev_server_in_rust_part_2">
+<meta name="daria:title" content="Part 2">
+<meta name="daria:title_slug" content="part_2">
+<meta name="daria:order" content="1">
+<meta name="daria:created_on" content="2022-07-05">
+<meta name="daria:tags" content="rust,html/css,javascript">
+
 # Writing a dev server in rust - Logging
 
 In this part I will look at setting up logging for use throughout the app.
