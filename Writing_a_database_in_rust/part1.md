@@ -1,3 +1,10 @@
+<meta name="daria:article_id" content="writing_a_database_in_rust_part_1">
+<meta name="daria:title" content="Part 1">
+<meta name="daria:title_slug" content="part_1">
+<meta name="daria:order" content="0">
+<meta name="daria:created_on" content="2024-03-19">
+<meta name="daria:tags" content="rust">
+
 # Writing a database in rust
 
 This series will explore my experinces with writing a database in rust. This is defintely a experiment and learning process rather then the next big thing in database technology.
