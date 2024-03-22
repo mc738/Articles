@@ -1,4 +1,11 @@
-﻿# Writing a shell in F# - Introduction
+﻿<meta name="daria:article_id" content="writing_a_shell_in_fsharp_part_1">
+<meta name="daria:title" content="Part 1">
+<meta name="daria:title_slug" content="part_1">
+<meta name="daria:order" content="0">
+<meta name="daria:created_on" content="2022-06-23">
+<meta name="daria:tags" content="fsharp">
+
+# Writing a shell in F# - Introduction
 
 This series will look at writing a shell in F#. 
 It is not meant to create a tool to replace bash or powershell, 
