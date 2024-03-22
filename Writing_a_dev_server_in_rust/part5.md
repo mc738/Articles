@@ -1,6 +1,13 @@
+<meta name="daria:article_id" content="writing_a_dev_server_in_rust_part_5">
+<meta name="daria:title" content="Part 5">
+<meta name="daria:title_slug" content="part_5">
+<meta name="daria:order" content="4">
+<meta name="daria:created_on" content="2022-07-05">
+<meta name="daria:tags" content="rust,html/css,javascript">
+
 # Writing a dev server in rust - WebSockets
 
-In this part I will look at a bare bones WebSockets server implentation needed for the application. 
+In this part I will look at a bare bones WebSockets server implementation needed for the application. 
 Currently it will only support server-to-client messaging, but that is enough.
 
 ## Overview
@@ -8,7 +15,7 @@ Currently it will only support server-to-client messaging, but that is enough.
 Before I talk about the http server it is important to go over the WebSockets server. 
 This will be the bare minimum needed for the project, it will only support server-to-client messaging and short messages. 
 
-In the future I might write a series on properly implmenting WebSockets but wanted to keep things simple for this application.
+In the future I might write a series on properly implementing WebSockets but wanted to keep things simple for this application.
 
 ## Implementation
 
