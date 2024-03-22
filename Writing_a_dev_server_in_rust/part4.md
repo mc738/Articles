@@ -1,13 +1,20 @@
-# Writing a dev server in rust - File watch
+<meta name="daria:article_id" content="writing_a_dev_server_in_rust_part_4">
+<meta name="daria:title" content="Part 4">
+<meta name="daria:title_slug" content="part_4">
+<meta name="daria:order" content="3">
+<meta name="daria:created_on" content="2022-07-05">
+<meta name="daria:tags" content="rust,html/css,javascript">
 
-In this part I will look at implementing the file watch, which will send out notifications when a file is altered in the target directory.
+# Writing a dev server in rust - File watcher
+
+In this part I will look at implementing the file watcher, which will send out notifications when a file is altered in the target directory.
 
 ## Overview
 
 With logging and messaging covered it is time to start looking at the key components. I am going to start with file watcher. 
 This will use [notify](https://docs.rs/notify/latest/notify/) rather than be implemented from scratch for cross platform compatibility.
 
-It will look for new files or changes to exisiting files and send a notification to the message hub with details.
+It will look for new files or changes to existing files and send a notification to the message hub with details.
 
 ## Implementation
 
@@ -116,4 +123,3 @@ With the file watcher set it one of the key components of the complete. The proj
 As with other parts this could be improved but it has been a good learning experience so far. 
 
 With the file watcher implemented the last major component is the http server.
-
