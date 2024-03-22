@@ -1,3 +1,10 @@
+<meta name="daria:article_id" content="writing_a_dev_server_in_rust_part_1">
+<meta name="daria:title" content="Part 1">
+<meta name="daria:title_slug" content="part_1">
+<meta name="daria:order" content="0">
+<meta name="daria:created_on" content="2022-07-05">
+<meta name="daria:tags" content="rust,html/css,javascript">
+
 # Writing a dev server in rust - Introduction
 
 The series will look at writing a dev server in rust. The server will support hot reloading of pages when changes are made.
