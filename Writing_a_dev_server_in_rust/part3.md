@@ -1,3 +1,10 @@
+<meta name="daria:article_id" content="writing_a_dev_server_in_rust_part_3">
+<meta name="daria:title" content="Part 3">
+<meta name="daria:title_slug" content="part_3">
+<meta name="daria:order" content="2">
+<meta name="daria:created_on" content="2022-07-05">
+<meta name="daria:tags" content="rust,html/css,javascript">
+
 # Writing a dev server in rust - Messaging
 
 In this part I will look one of the core components - messaging. Messages will be passed from the file watcher to an subscribers to trigger a page reload in the browser.
@@ -86,11 +93,13 @@ impl MessageHub {
                     }
 
                     if dead_subs.len() > 0 {
-                        // Revserve so subs with a highest index are removed first.
+                        // Reverse so subs with a highest index are removed first.
                         // Example:
                         // 0, 1*, 2, 3* (* = remove).
                         // 3 will be removed leaving 0, 1, 2.
                         // Then 1 will be removed. To avoid calculating new next etc.
+                        // This is the indexes are preserved as dead subs are removed.
+                        // If not, removing the item at index 1 will mean there is no longer and item at index 3 for example.
                         dead_subs.reverse();
 
                         for i in &dead_subs {
