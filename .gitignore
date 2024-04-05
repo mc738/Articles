@@ -1,4 +1,6 @@
 daria_v2.db
+*.db
 .resources
 .*
 _*
+
