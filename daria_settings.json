@@ -1,5 +1,5 @@
 {
-    "storePath": "C:\\ProjectData\\Articles\\daria_store.db",
+    "storePath": "C:\\ProjectData\\Articles\\daria_store_v2_test.db",
     "articlesRoot": "C:\\ProjectData\\Articles",
     "resourcesRoot": "C:\\ProjectData\\Articles\\.resources",
     "directoryIgnorePatterns": [
