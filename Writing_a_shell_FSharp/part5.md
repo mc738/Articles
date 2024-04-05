@@ -1,4 +1,11 @@
-﻿# Writing a shell in F# - Changes and fix ups
+﻿<meta name="daria:article_id" content="writing_a_shell_in_fsharp_part_5">
+<meta name="daria:title" content="Part 5">
+<meta name="daria:title_slug" content="part_5">
+<meta name="daria:order" content="4">
+<meta name="daria:created_on" content="2022-06-23">
+<meta name="daria:tags" content="fsharp">
+
+# Writing a shell in F# - Changes and fix ups
 
 In this part I will go over a list of changes and fix ups I made required for the interpreter and to fix some bugs.
 
