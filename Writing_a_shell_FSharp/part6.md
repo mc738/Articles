@@ -1,4 +1,11 @@
-﻿# Writing a shell in F# - Interpreter
+﻿<meta name="daria:article_id" content="writing_a_shell_in_fsharp_part_6">
+<meta name="daria:title" content="Part 6">
+<meta name="daria:title_slug" content="part_6">
+<meta name="daria:order" content="5">
+<meta name="daria:created_on" content="2022-06-23">
+<meta name="daria:tags" content="fsharp">
+
+# Writing a shell in F# - Interpreter
 
 In this part I will go over adding an interpreter to the shell which will translate tokens into steps to be executed.
 
