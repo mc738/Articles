@@ -1,4 +1,11 @@
-﻿# Writing a shell in F# - Input controller
+﻿<meta name="daria:article_id" content="writing_a_shell_in_fsharp_part_3">
+<meta name="daria:title" content="Part 3">
+<meta name="daria:title_slug" content="part_3">
+<meta name="daria:order" content="1">
+<meta name="daria:created_on" content="2022-06-23">
+<meta name="daria:tags" content="fsharp">
+
+# Writing a shell in F# - Input controller
 
 In this part I will discuss creating a input controller to collect user input and save a history of commands.
 
