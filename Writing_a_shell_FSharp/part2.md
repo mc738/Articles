@@ -1,4 +1,11 @@
-﻿# Writing a shell in F# - Pipes and CoreUtils
+﻿<meta name="daria:article_id" content="writing_a_shell_in_fsharp_part_2">
+<meta name="daria:title" content="Part 2">
+<meta name="daria:title_slug" content="part_2">
+<meta name="daria:order" content="1">
+<meta name="daria:created_on" content="2022-06-23">
+<meta name="daria:tags" content="fsharp">
+
+# Writing a shell in F# - Pipes and CoreUtils
 
 This part will looking at setting up a basic pipe mechanism and created some basic CoreUtils.
 
