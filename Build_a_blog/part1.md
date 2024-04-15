@@ -4,6 +4,7 @@
 <meta name="daria:order" content="0">
 <meta name="daria:created_on" content="2022-06-21">
 <meta name="daria:tags" content="fsharp,markdown,general">
+<meta name="daria:image" content="pch_preview">
 
 # Build a blog - Introduction
 
