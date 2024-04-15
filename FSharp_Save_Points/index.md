@@ -3,6 +3,7 @@
 <meta name="daria:order" content="2">
 <meta name="daria:created_on" content="2022-06-19">
 <meta name="daria:tags" content="fsharp">
+<meta name="daria:image" content="pine-watt-2Hzmz15wGik_preview">
 
 # Save points in F#
 
