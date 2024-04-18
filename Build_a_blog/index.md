@@ -3,7 +3,7 @@
 <meta name="daria:order" content="3">
 <meta name="daria:created_on" content="2022-06-21">
 <meta name="daria:tags" content="fsharp,markdown,general">
-<meta name="daria:image" content="pch_preview">
+<meta name="daria:image_id" content="pch">
 
 # Build a blog
 
