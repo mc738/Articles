@@ -4,6 +4,7 @@
 <meta name="daria:order" content="0">
 <meta name="daria:created_on" content="2022-06-19">
 <meta name="daria:tags" content="general">
+<meta name="daria:image_id" content="space">
 
 # Adding images to FDOM
 
