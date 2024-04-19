@@ -4,7 +4,7 @@
 <meta name="daria:order" content="2">
 <meta name="daria:created_on" content="2022-06-19">
 <meta name="daria:tags" content="fsharp,csv">
-<meta name="daria:image" content="twitter">
+<meta name="daria:image_id" content="twitter">
 
 # Writing a CSV parser in F# - Record building
 
