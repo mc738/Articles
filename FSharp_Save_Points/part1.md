@@ -4,7 +4,7 @@
 <meta name="daria:order" content="0">
 <meta name="daria:created_on" content="2022-06-19">
 <meta name="daria:tags" content="fsharp">
-<meta name="daria:image" content="pine-watt-2Hzmz15wGik_preview">
+<meta name="daria:image_id" content="pine-watt-2Hzmz15wGik-unsplash">
 
 # Save points in F# - Introduction
 
