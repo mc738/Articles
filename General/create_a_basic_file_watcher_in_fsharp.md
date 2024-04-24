@@ -4,6 +4,7 @@
 <meta name="daria:order" content="1">
 <meta name="daria:created_on" content="2022-06-19">
 <meta name="daria:tags" content="general">
+<meta name="daria:image_id" content="space">
 
 # Create a basic file watcher in F#
 
