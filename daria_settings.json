@@ -1,18 +1,28 @@
 {
-    "storePath": "C:\\ProjectData\\Articles\\daria_store_v2_test.db",
-    "articlesRoot": "C:\\ProjectData\\Articles",
-    "resourcesRoot": "C:\\ProjectData\\Articles\\.resources",
-    "directoryIgnorePatterns": [
-        "^\\.",
-        "^_"
-    ],
-    "fileIgnorePatterns": [
-        "\\.(?!md$)"
-    ],
-    "dateTimeFormats": [ 
-        "u",
-        "yyyy-MM-dd",
-        "dd/MM/yyyy"
-    ],
-    "indexFileName": "index.md"
+    "common": {
+        "storePath": "C:\\ProjectData\\Articles\\daria_store_v2_test.db"
+    },
+    "import": {
+        "articlesRoot": "C:\\ProjectData\\Articles",
+        "resourcesRoot": "C:\\ProjectData\\Articles\\.resources",
+        "directoryIgnorePatterns": [
+            "^\\.",
+            "^_"
+        ],
+        "fileIgnorePatterns": [
+            "\\.(?!md$)"
+        ],
+        "dateTimeFormats": [ 
+            "u",
+            "yyyy-MM-dd",
+            "dd/MM/yyyy"
+        ],
+        "indexFileName": "index.md",
+        "storeSettings": [
+            {
+                "key": "clear_on_build",
+                "value": "true"
+            }
+        ]
+    }
 }
