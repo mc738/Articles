@@ -4,6 +4,7 @@
 <meta name="daria:order" content="0">
 <meta name="daria:created_on" content="2024-03-19">
 <meta name="daria:tags" content="rust">
+<meta name="daria:image_id" content="mountains">
 
 # Writing a database in rust
 
