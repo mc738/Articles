@@ -12,7 +12,7 @@
         "fileIgnorePatterns": [
             "\\.(?!md$)"
         ],
-        "dateTimeFormats": [ 
+        "dateTimeFormats": [
             "u",
             "yyyy-MM-dd",
             "dd/MM/yyyy"
@@ -22,6 +22,63 @@
             {
                 "key": "clear_on_build",
                 "value": "true"
+            }
+        ]
+    },
+    "build": {
+        "profiles": [
+            {
+                "name": "",
+                "rootPath": "",
+                "ClearDirectoryBeforeBuild": true,
+                "articlesTemplateSource": {
+                    "type": "store",
+                    "id": "article_template",
+                    "versionType": "latest"
+                },
+                "seriesTemplateSource": {
+                    "type": "store",
+                    "id": "series_template",
+                    "versionType": "latest"
+                },
+                "indexTemplateSource": {
+                    "type": "store",
+                    "id": "index_template",
+                    "versionType": "latest"
+                },
+                "preBuildSteps": [
+                    {
+                        "type": "create-directory",
+                        "name": "css"
+                    },
+                    {
+                        "type": "create-directory",
+                        "name": "js"
+                    },
+                    {
+                        "type": "create-directory",
+                        "name": "img"
+                    }
+                ],
+                "postBuildSteps": [
+                    {
+                        "type": "export-images",
+                        "outputDirectoryName": "img",
+                        "skipIfExists": true
+                    },
+                    {
+                        "type": "export-resource-bucket",
+                        "bucketName": "css",
+                        "useLatestResourceVersion": true,
+                        "skipIfExists": true
+                    },
+                    {
+                        "type": "export-resource-bucket",
+                        "bucketName": "js",
+                        "useLatestResourceVersion": true,
+                        "skipIfExists": true
+                    }
+                ]
             }
         ]
     }
