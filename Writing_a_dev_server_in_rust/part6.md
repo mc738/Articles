@@ -4,6 +4,7 @@
 <meta name="daria:order" content="5">
 <meta name="daria:created_on" content="2022-07-05">
 <meta name="daria:tags" content="rust,html/css,javascript">
+<meta name="daria:image_id" content="cranes-2">
 
 # Writing a dev server in rust - Http server
 
