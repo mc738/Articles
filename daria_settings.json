@@ -28,8 +28,9 @@
     "build": {
         "profiles": [
             {
-                "name": "",
-                "rootPath": "",
+                "name": "main",
+                "rootPath": "C:\\ProjectData\\Articles\\_rendered_v2",
+                "url": "https://blog.psionic.cloud",
                 "ClearDirectoryBeforeBuild": true,
                 "articlesTemplateSource": {
                     "type": "store",
@@ -69,12 +70,14 @@
                     {
                         "type": "export-resource-bucket",
                         "bucketName": "css",
+                        "outputDirectoryName": "css",
                         "useLatestResourceVersion": true,
                         "skipIfExists": true
                     },
                     {
                         "type": "export-resource-bucket",
                         "bucketName": "js",
+                        "outputDirectoryName": "js",
                         "useLatestResourceVersion": true,
                         "skipIfExists": true
                     }
