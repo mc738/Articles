@@ -4,7 +4,7 @@
 <meta name="daria:order" content="1">
 <meta name="daria:created_on" content="2022-06-23">
 <meta name="daria:tags" content="fsharp">
-<meta name="daria:image" content="pipes_preview.jpg">
+<meta name="daria:image_id" content="pipes">
 
 # Writing a shell in F# - Input controller
 
