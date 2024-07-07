@@ -3,6 +3,8 @@
 <meta name="daria:order" content="2">
 <meta name="daria:created_on" content="2024-07-07">
 <meta name="daria:tags" content="raspberry pi,rust,iot,fsharp">
-<meta name="daria:image_id" content="christopher-burns-8KfCR12oeUM">
+<meta name="daria:image_id" content="christopher-burns-8KfCR12oeUM-unsplash">
 
 # Basics - Scripting
+
+TODO
