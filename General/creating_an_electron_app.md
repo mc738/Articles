@@ -192,10 +192,23 @@ Now we will set up `ui/shadcn` so we can easily use high quality components.
 
 Run: 
 
+```json
+{
+  "compilerOptions": {
+    ...
+    "paths": {
+      "*": ["node_modules/*"],
+      "@/*": [ "./src/*" ] <- Add this
+    },
+    ...
+  },
+  ...
+}
+```
+
 ```shell
 npx shadcn-ui@latest init
 ```
-
 
 
 
