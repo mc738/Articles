@@ -80,7 +80,7 @@ import './index.css';
 import './app' // <- Add this
 ```
 
-Finally you can now update `src/index.html` to render the app:
+Finally, you can now update `src/index.html` to render the app:
 
 ```html
 <!DOCTYPE html>
